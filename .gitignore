@@ -1,0 +1,30 @@
+# Public code showcase: deny everything unless explicitly allowed.
+# The full Unity project and original assets remain on this computer.
+/*
+!/.gitignore
+!/README.md
+!/Assets/
+/Assets/*
+!/Assets/Scripts/
+!/Assets/Scripts.meta
+/Assets/Scripts/**
+!/Assets/Scripts/**/
+!/Assets/Scripts/**/*.cs
+!/Assets/Scripts/**/*.cs.meta
+!/Assets/Scripts/**/*.asmdef
+!/Assets/Scripts/**/*.asmdef.meta
+
+# Never publish editor caches, generated code, credentials, or local settings.
+**/.vs/
+**/.idea/
+**/.vscode/
+**/.codex/
+**/.agents/
+**/bin/
+**/obj/
+**/.env*
+**/*credentials*
+**/*.user
+**/*.pfx
+**/*.keystore
+**/*AssemblyInfo.cs
